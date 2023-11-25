@@ -1,0 +1,80 @@
+@font-face {
+    font-family: yash;
+    src: url(../fonts/bold.ttf);
+}
+
+
+
+
+body{
+    background-color: #B3BE08;
+   
+    text-align:center ;
+    margin-top: 7vw;
+    font-size: 20px;
+    
+    font-family: yash;
+   
+}
+button
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: yash;
+    height: 70px;
+    width: 200px;
+    font-size: 40px;
+}
+button:hover
+{
+ background-color: grey;
+ color: black;
+ border-radius: 35%;
+ font-weight: bolder;
+
+
+}
+@media screen and (max-width: 640px)
+{
+    body
+     {
+      font-size:20px;
+      font-weight: bold;
+      top:5%;
+     }
+     .ins
+     {
+        font-size: 22px;
+     }
+
+
+}
+@media screen and (min-width: 1280px)
+{
+ body
+ {
+   font-size: 120%;
+   overflow: hidden;
+ }
+ .ins
+     {
+        font-size: 72px;
+        overflow: hidden;
+     }
+}
+@media screen and (min-width: 300px)
+{
+    body
+     {
+      font-size:18px;
+      font-weight: bold;
+      top:5%;
+     }
+     .ins
+     {
+        font-size: 22px;
+     }
+
+
+}

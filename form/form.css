@@ -1,0 +1,87 @@
+*
+{
+    background-color: #B3BE08;
+    overflow: hidden;
+   
+   
+}
+@font-face
+{
+    font-family: yash;
+    src: url(../fonts/bold.ttf);
+
+
+}
+.play
+{
+    font-family: yash;
+    background-color: black;
+    color: azure;
+    height: 100px;
+    width: 280PX;
+    border-radius: 0%;
+    font-size: 90px;
+    text-align: center;
+   position: relative;
+   top: 150%;  
+}
+.play:hover
+{
+    background-color:grey;
+    color: black;
+    font-weight: bolder;
+    border-width: 35%;
+    border-radius: 20%;
+}
+#play
+{
+    height: fit-content;
+    text-align: center;
+    margin-top: 5%;
+   
+
+
+}
+.class
+{
+    height: 40px;
+    width: 280px;
+    background-color:black;
+    color:white;
+    font-family: yash;
+    border-radius: 0%;
+    border-color: black;
+    font-size: xx-large;
+    text-align: center;
+}
+.class:hover
+{
+    background-color:grey;
+    color: black;
+    font-weight: bolder;
+    border-width: 30%;
+    border-radius: 20%;
+}
+#back_1
+{
+    height: 100%;
+    background-image: url(../back_2.jpg);
+   
+    background-color:#B3BE08;
+    width: 100%;
+}
+image
+{
+    height: max-content;
+}
+h1
+{
+ font-family: yash;
+ text-align: center;
+ margin-top: 4%;
+ font-size: 60px;
+}
+h1:hover
+{
+    color:red;
+}

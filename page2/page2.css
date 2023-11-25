@@ -1,0 +1,62 @@
+@font-face
+ {
+    font-family: yash;
+    src: url(../fonts/bold.ttf);
+}
+*
+{
+    background-color: #B3BE08;
+     overflow: hidden;
+    font-family: yash;
+
+
+
+
+}
+#content
+{
+    height: fit-content;
+    text-align: center;
+
+
+}
+h1:hover
+{
+ color:orangered;
+ font-weight: bolder;
+}
+.GAMEOV:hover
+{
+ color:black;
+ font-weight: bolder;
+}
+.headin:hover
+{
+    color:darkolivegreen;
+    font-weight: bolder;
+}
+.headin
+{
+  font-size: 3rem;
+}
+.GAMEOV
+{
+ font-size: 4rem;
+}
+.Replayy
+{
+    font-size: 3rem;
+}
+.sc
+{
+    font-size: 4rem;
+}
+#endin
+{
+    height: 100%;
+    background-image: url(../back_2.jpg);
+    background-color:#B3BE08;
+    width: 100%;
+}
+
+

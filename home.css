@@ -1,0 +1,48 @@
+@font-face {
+    font-family: yash;
+    src: url(./fonts/bold.ttf);
+}
+
+body {
+    overflow: hidden;
+    background-image: url(./hompage/snake-game-loading-screen-9po4zuz368r8u1cg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #090B01;
+}
+
+.heading {
+    position: relative;
+    top: 0px;
+    left: 5%;
+    font-size: 40px;
+}
+
+.ins {
+    position: relative;
+    left: 78%;
+    font-family: yash;
+    
+}
+
+.ply {
+    position: relative;
+    left: 78%;
+    top: 250px;
+    font-size: 4vw;
+    font-family: yash;
+    border: 6px solid black;
+    padding: 3px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+    text-decoration: none;
+    
+
+
+}
